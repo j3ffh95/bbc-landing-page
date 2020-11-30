@@ -30,10 +30,87 @@ body {
   line-height: 1.5;
 }
 
+a {
+  text-decoration: none;
+  color: #333;
+}
+ul {
+  list-style: none;
+}
+img {
+  max-width: 100%;
+  display: block;
+  height: auto;
+}
+
 /******************************************
 /* LAYOUT
 /*******************************************/
-header {
+.main-header {
+  color: #f1f1f1;
+  background-color: #000;
+  overflow: hidden;
+  height: 40px;
+}
+
+.main-header > * {
+  float: left;
+}
+
+.logo {
+  padding: 0.5em 1.5em;
+}
+
+.list-item.sign-in,
+.list-item.more-link {
+  padding-right: 8em;
+}
+
+.nav-list > * {
+  float: left;
+}
+
+.list-item {
+  padding: 0.5em 1em;
+  border-left: solid #ddd 1px;
+  cursor: pointer;
+  transition: all 0.5s ease;
+}
+
+.list-item:hover,
+.list-item:focus {
+  opacity: 0.5;
+}
+
+.more-link {
+  position: relative;
+  cursor: pointer;
+}
+
+.arrow {
+  position: absolute;
+  top: -35px;
+  right: 20px;
+}
+
+.search-link {
+  position: relative;
+  color: #000;
+}
+
+.search-link:hover,
+.search-link:focus {
+  opacity: 1;
+}
+
+#search-input {
+  width: 15rem;
+}
+
+.search-icon {
+  position: absolute;
+  top: 12px;
+  right: 25px;
 }
 
 footer {

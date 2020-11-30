@@ -22,30 +22,65 @@
     <header class="main-header">
       <div class="logo">
         <img
-          src="https://nav.files.bbci.co.uk/orbit/ece9cb048f668bbc4cc6214737a6cdb6/img/blq-orbit-blocks_grey.svg"
+          src="https://nav.files.bbci.co.uk/orbit/ece9cb048f668bbc4cc6214737a6cdb6/img/blq-orbit-blocks_white.svg"
           alt=""
         />
       </div>
-      <ul>
-        <li><i class="fas fa-user-circle"></i>Sign in</li>
-        <li>Home</li>
-        <li>News</li>
-        <li>Sport</li>
-        <li>Reel</li>
-        <li>Worklife</li>
-        <li>Travel</li>
-        <li>Future</li>
-        <li>Culture</li>
-        <li>
+      <ul class="nav-list">
+        <li class="list-item sign-in">
+          <i class="fas fa-user-circle"></i>Sign in
+        </li>
+        <li class="list-item">Home</li>
+        <li class="list-item">News</li>
+        <li class="list-item">Sport</li>
+        <li class="list-item">Reel</li>
+        <li class="list-item">Worklife</li>
+        <li class="list-item">Travel</li>
+        <li class="list-item">Future</li>
+        <li class="list-item">Culture</li>
+        <li class="list-item more-link">
           More
           <img
+            class="arrow"
             src="https://nav.files.bbci.co.uk/orbit/ece9cb048f668bbc4cc6214737a6cdb6/img/orb-sprite.gif"
             alt=""
           />
         </li>
-        <li><input type="text" id="search-input" placeholder="Search" /></li>
+        <li class="list-item search-link">
+          <input type="text" id="search-input" placeholder="Search" />
+          <i class="fas fa-search search-icon"></i>
+        </li>
       </ul>
     </header>
+    <main>
+      <h1>Welcome to BBC.com</h1>
+      <div class="main-section">
+        <h2>Israel and UAE strike historic peace deal</h2>
+        <p>
+          Israel and the UAE agree to normalise relations, marking the third
+          Israel-Arab peace deal.
+        </p>
+        <p class="category">middle east</p>
+      </div>
+      <div class="boxes-section">
+        <div class="box">
+          <h2>Lorem ipsum dolor sit amet consectetur adipisicing.</h2>
+          <p class="category">canada</p>
+        </div>
+        <div class="box">
+          <h2>Lorem ipsum dolor sit amet consectetur adipisicing.</h2>
+          <p class="category">health</p>
+        </div>
+        <div class="box">
+          <h2>Lorem ipsum dolor sit amet consectetur adipisicing.</h2>
+          <p class="category">worklife</p>
+        </div>
+        <div class="box">
+          <h2>Lorem ipsum dolor sit amet consectetur adipisicing.</h2>
+          <p class="category">culture</p>
+        </div>
+      </div>
+    </main>
     <script type="text/javascript" src="js/main.js"></script>
   </body>
 </html>
