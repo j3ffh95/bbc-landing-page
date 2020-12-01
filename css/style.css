@@ -118,16 +118,37 @@ main > * + * {
 }
 
 .main-section {
-  background-image: url("https://c.files.bbci.co.uk/1676D/production/_113931029_composite.jpg");
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0),
+      rgba(0, 0, 0, 0.7)
+    ),
+    url("https://c.files.bbci.co.uk/1676D/production/_113931029_composite.jpg");
   background-size: cover;
-  width: 45%;
-  height: 20rem;
+  width: 50%;
+  height: 21rem;
   color: #f1f1f1;
   margin: 0 0.5em;
+  padding: 1em;
+}
+
+.main-section > h2 {
+  padding-top: 10em;
+}
+
+.top-content > h1 {
+  margin-bottom: 0;
+  padding: 0 0 0 0.3em;
+}
+
+.info {
+  float: right;
+  padding: 1em 1em 0 1em;
+  color: #918c8c;
 }
 
 .boxes-section {
-  width: 50%;
+  width: 47%;
   margin: 0 0.5em;
 }
 
@@ -136,7 +157,7 @@ main > * + * {
 }
 
 .box {
-  width: 40%;
+  width: 47%;
   height: 10em;
   background-image: linear-gradient(
       to bottom,
@@ -151,7 +172,7 @@ main > * + * {
 }
 
 .box > h2 {
-  margin-top: 2.5em;
+  margin-top: 4.5em;
   font-size: 1rem;
   font-weight: normal;
 }
