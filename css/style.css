@@ -133,12 +133,22 @@ main > * + * {
 }
 
 .main-section > h2 {
-  padding-top: 10em;
+  padding-top: 8em;
 }
 
 .top-content > h1 {
   margin-bottom: 0;
   padding: 0 0 0 0.3em;
+}
+
+.category {
+  padding: 0 0.5em;
+  border-left: red solid 3px;
+  margin-top: 1em;
+  text-transform: uppercase;
+  font-size: 0.7rem;
+  color: #ddd;
+  font-weight: 300;
 }
 
 .info {
@@ -169,12 +179,45 @@ main > * + * {
   margin-right: 1em;
   margin-bottom: 1em;
   color: #f1f1f1;
+  padding: 0 0.7em;
 }
 
 .box > h2 {
   margin-top: 4.5em;
   font-size: 1rem;
   font-weight: normal;
+}
+
+/* News Section */
+.news-section {
+  overflow: hidden;
+  padding: 0.5em;
+}
+
+.news-section > h2 {
+  padding: 0 0.5em;
+  font-size: 1.5rem;
+  margin-bottom: 0.5em;
+}
+
+.news-section > h2::before {
+  content: "";
+  display: inline-block;
+  margin-right: 0.5rem;
+  border-left: 3px solid red;
+  height: 1rem;
+}
+
+.news-boxes > * {
+  float: left;
+}
+
+.news-box {
+  width: 30%;
+}
+
+.news-box .category {
+  color: #333;
 }
 
 footer {
