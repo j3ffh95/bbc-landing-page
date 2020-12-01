@@ -208,12 +208,32 @@ main > * + * {
   height: 1rem;
 }
 
+.news-boxes {
+  overflow: hidden;
+}
+
 .news-boxes > * {
   float: left;
 }
 
 .news-box {
-  width: 30%;
+  width: 32%;
+  margin-right: 1em;
+}
+
+.news-box > img {
+  width: 100%;
+}
+
+.news-box > h3 {
+  font-size: 1.5rem;
+  line-height: 1.1;
+  margin: 0.5em 0;
+}
+
+.news-box > p:not(.category) {
+  line-height: 1.2;
+  font-size: 0.9rem;
 }
 
 .news-box .category {
