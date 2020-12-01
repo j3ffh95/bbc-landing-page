@@ -112,6 +112,49 @@ img {
   top: 12px;
   right: 25px;
 }
+/* Main Section */
+main > * + * {
+  float: left;
+}
+
+.main-section {
+  background-image: url("https://c.files.bbci.co.uk/1676D/production/_113931029_composite.jpg");
+  background-size: cover;
+  width: 45%;
+  height: 20rem;
+  color: #f1f1f1;
+  margin: 0 0.5em;
+}
+
+.boxes-section {
+  width: 50%;
+  margin: 0 0.5em;
+}
+
+.boxes-section > div {
+  float: left;
+}
+
+.box {
+  width: 40%;
+  height: 10em;
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0),
+      rgba(0, 0, 0, 0.7)
+    ),
+    url("https://ichef.bbci.co.uk/news/384/cpsprodpb/D39B/production/_113917145_gettyimages-144092698.jpg");
+  font-size: 1rem;
+  margin-right: 1em;
+  margin-bottom: 1em;
+  color: #f1f1f1;
+}
+
+.box > h2 {
+  margin-top: 2.5em;
+  font-size: 1rem;
+  font-weight: normal;
+}
 
 footer {
 }
